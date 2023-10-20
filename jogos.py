@@ -11,7 +11,7 @@ def escolha_jogo():
 
     if jogo == 1:
         print("Jogando Foca")
-        foca.jogo_foca()
+        foca.jogar()
     elif jogo == 2:
         print("Jogando Adivinhar")
         adivinhar.jogo_adivinhar()
