@@ -1,7 +1,3 @@
-from PIL import Image
-
-# Abra a imagem JPEG
-imagem = Image.open('')
-
-# Exiba a imagem
-imagem.show()
+def cria_conta(numero, titular, saldo, limite):
+    conta = {"numero": numero, "titular": titular, "saldo": saldo, "limite": limite}
+    return conta
