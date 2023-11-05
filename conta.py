@@ -1,5 +1,10 @@
-def cria_conta(numero, nome, Cidade, Estado, Saldo):
-    conta = {"numero": numero, "nome": nome, "Cidade": Cidade, "Estado": Estado, "Saldo": Saldo}
-    return conta
+class Conta:
+
+    def __init__(self, numero, titular, saldo, limite):
+        print("Construindo objeto ... {}".format(self))
+        self.numero = numero
+        self.titular = titular
+        self.saldo = saldo
+        self.limite = limite
 
 
