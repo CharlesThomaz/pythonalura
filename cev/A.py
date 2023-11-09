@@ -1,8 +1,12 @@
-class Teste:
+class Pessoa:
     def __init__(self):
         self.nome = input('Digite seu nome: ')
         self.idade = input('Sua idade: ')
-        self.cidade = input('ONde mora? ')
+        self.__cpf = input('CPF? ')
 
-    def jogando(self):
-         print(f'Seu nome é {self.nome}, tem {self.idade} anos e mora em {self.cidade}')
+
+
+p1 = Pessoa()
+print('Seu nome é {}, tem {} anos e o CPF é {}'.format(p1.nome, p1.idade, p1.cpf))
+print('')
+
