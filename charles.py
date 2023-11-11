@@ -1,9 +1,7 @@
+from teste import cria_conta, deposita, saca, extrato
 
-from conta import Conta
-conta = Conta(123, "Nico", 55.5, 1000.0)
-conta2 = Conta(321, "Marcos", 100.0, 1000.0)
-print(conta.titular)
-print(conta2.titular)
-
-
-
+c1 = cria_conta(1,'a',2, 3)
+deposita(c1, 15.2)
+extrato(c1)
+saca(c1, 10.0)
+extrato(c1)
