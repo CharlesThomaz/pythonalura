@@ -12,3 +12,4 @@ def extrato(conta):
 
 
 
+conta_tassia = Conta(123, 'Tassia',1000.0, 10000.0 )

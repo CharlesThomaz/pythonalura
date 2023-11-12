@@ -1,9 +1,14 @@
 from conta import Conta
 conta_tassia = Conta(123, 'Tassia',1000.0, 10000.0 )
-print(conta_tassia.extrato())
-conta_tassia.deposita(500.0)
-print(conta_tassia.extrato())
-conta_tassia.deposita(5000.0)
-print(conta_tassia.extrato())
-conta_tassia.saca(6250.0)
-print(conta_tassia.extrato())
+
+a = conta_tassia.get_saldo()
+print(a)
+
+b = conta_tassia.get_limite()
+print(b)
+
+c = conta_tassia.get_titular()
+print(c)
+
+d = conta_tassia.set__limite(50000)
+print(conta_tassia.get_limite())
